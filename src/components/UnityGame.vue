@@ -82,7 +82,7 @@ export default {
         this.canvasStyle.height = "100%";
       }
       var self = this;
-      self.socket = new WebSocket("ws://localhost:8000/ws")
+      self.socket = new WebSocket(process.env.VUE_APP_BASE_URL + "/ws")
       console.log(self.socket)
       self.socket.onopen = function() {
         let a = new GameMessage("Conn","ok")
