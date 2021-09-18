@@ -1,24 +1,3 @@
-# vr-src
+# Unity3D/Vue JS example
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This code is connected to the series "Communicating between Javascript and Unity3d" on Enshapa Engineering (https://www.enshapa-engineering.com/2021/08/01/communication-between-javascript-and-unity3d/)
